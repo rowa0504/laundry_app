@@ -28,16 +28,16 @@ This is a Laravel-based web application for managing laundry services. It includ
 
 ## 📸 Screenshots
 
-| Feature                | Screenshot                                                                                           |
-| ---------------------- | ---------------------------------------------------------------------------------------------------- |
-| Admin Dashboard        | ![Admin](https://github.com/rowa0504/laundry-app/blob/main/public/images/admin.png?raw=true)         |
-| Create Laundry Request | ![Create](https://github.com/rowa0504/laundry-app/blob/main/public/images/create.png?raw=true)       |
-| Change Price           | ![Price](https://github.com/rowa0504/laundry-app/blob/main/public/images/price-changes.png?raw=true) |
-| Dashboard View         | ![Dashboard](https://github.com/rowa0504/laundry-app/blob/main/public/images/dashboard.png?raw=true) |
-| Get Pickup Code        | ![Get Code](https://github.com/rowa0504/laundry-app/blob/main/public/images/get-code.png?raw=true)   |
-| Code Match Success     | ![Match](https://github.com/rowa0504/laundry-app/blob/main/public/images/match-code.png?raw=true)    |
-| Code Mismatch          | ![Mismatch](https://github.com/rowa0504/laundry-app/blob/main/public/images/mismatch-code.png?raw=true) |
-| Pickup Confirmed       | ![Pickup](https://github.com/rowa0504/laundry-app/blob/main/public/images/pickup.png?raw=true)       |
+| Feature                | Screenshot                                |
+| ---------------------- | ----------------------------------------- |
+| Admin Dashboard        | ![Admin](public/images/admin.png)         |
+| Create Laundry Request | ![Create](public/images/create.png)       |
+| Change Price (Admin)   | ![Price](public/images/price-changes.png) |
+| Dashboard View         | ![Dashboard](public/images/dashboard.png) |
+| Get Pickup Code        | ![Get Code](public/images/get-code.png)   |
+| Code Match Success     | ![Match](public/images/match-code.png)    |
+| Code Mismatch          | ![Mismatch](public/images/mismatch-code.png) |
+| Pickup Confirmed       | ![Pickup](public/images/pickup.png)       |
 
 
 ---
