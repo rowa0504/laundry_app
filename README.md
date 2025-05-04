@@ -28,16 +28,17 @@ This is a Laravel-based web application for managing laundry services. It includ
 
 ## 📸 Screenshots
 
-| Feature | Screenshot |
-|--------|------------|
-| Admin Dashboard | ![Admin](https://github.com/rowa0504/laundry-app/blob/main/public/images/laundry%20admin.png?raw=true) |
-| Create Laundry Request | ![Create](https://github.com/rowa0504/laundry-app/blob/main/public/images/laundry%20create%20laundry.png?raw=true) |
-| Dashboard View | ![Dashboard](https://github.com/rowa0504/laundry-app/blob/main/public/images/laundry%20dashboard.png?raw=true) |
-| Get Pickup Code | ![Get Code](https://github.com/rowa0504/laundry-app/blob/main/public/images/laundry%20get-code.png?raw=true) |
-| Code Match Success | ![Match](https://github.com/rowa0504/laundry-app/blob/main/public/images/laundry%20mach-code.png?raw=true) |
-| Code Mismatch | ![Mismatch](https://github.com/rowa0504/laundry-app/blob/main/public/images/laundry%20mismatch-code.png?raw=true) |
-| Pickup Confirmed | ![Pickup](https://github.com/rowa0504/laundry-app/blob/main/public/images/laundry%20pickup.png?raw=true) |
-| Change Price (Admin) | ![Price](https://github.com/rowa0504/laundry-app/blob/main/public/images/laundry%20price-changes.png?raw=true) |
+| Feature                | Screenshot                                |
+| ---------------------- | ----------------------------------------- |
+| Admin Dashboard        | ![Admin](public/images/admin.png)         |
+| Create Laundry Request | ![Create](public/images/create.png)       |
+| Change Price (Admin)   | ![Price](public/images/price-changes.png) |
+| Dashboard View         | ![Dashboard](public/images/dashboard.png) |
+| Get Pickup Code        | ![Get Code](public/images/get-code.png)   |
+| Code Match Success     | ![Match](public/images/match-code.png)    |
+| Code Mismatch          | ![Mismatch](public/images/mismatch-code.png) |
+| Pickup Confirmed       | ![Pickup](public/images/pickup.png)       |
+
 
 ---
 
