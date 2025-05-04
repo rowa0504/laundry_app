@@ -30,14 +30,14 @@ This is a Laravel-based web application for managing laundry services. It includ
 
 | Feature                | Screenshot                                |
 | ---------------------- | ----------------------------------------- |
-| Admin Dashboard        | ![Admin](public/images/admin.png)         |
-| Create Laundry Request | ![Create](public/images/create.png)       |
-| Change Price (Admin)   | ![Price](public/images/price-changes.png) |
+| Create Laundry         | ![Create](public/images/create.png)       |
+| Change Price           | ![Price](public/images/price-changes.png) |
 | Dashboard View         | ![Dashboard](public/images/dashboard.png) |
 | Get Pickup Code        | ![Get Code](public/images/get-code.png)   |
 | Code Match Success     | ![Match](public/images/match-code.png)    |
 | Code Mismatch          | ![Mismatch](public/images/mismatch-code.png) |
 | Pickup Confirmed       | ![Pickup](public/images/pickup.png)       |
+| Admin Dashboard        | ![Admin](public/images/admin.png)         |
 
 
 ---
