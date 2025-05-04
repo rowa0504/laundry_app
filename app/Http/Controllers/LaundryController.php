@@ -84,8 +84,6 @@ class LaundryController extends Controller
     }
 
 
-
-
     public function show($id)
     {
         $laundry = Laundry::findOrFail($id); // データを取得
@@ -105,12 +103,18 @@ class LaundryController extends Controller
                 ->with('error', 'Sorry, invalid pickup code. Please try again.');
         }
 
+        // 既に受け取り済みかチェック
+        if ($laundry->status === 'completed') {
+            return redirect()->route('laundry.pickup')
+                ->with('error', 'This laundry has already been picked up.');
+        }
+
         // ステータスを "completed" に更新
         $laundry->status = 'completed';
         $laundry->save();
 
         // 受け取り完了メッセージを表示
         return redirect()->route('laundry.pickup')
-            ->with('success', 'Thank you, ' . $laundry->user_name . '! Your laundry has been picked up!.');
+            ->with('success', 'Thank you, ' . $laundry->user_name . '! Your laundry has been picked up!');
     }
 }
